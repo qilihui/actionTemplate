@@ -50,7 +50,7 @@ for i in {1..20}; do
     fi
     $ping
 done
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
     echo "运行失败，请检查"
 fi
 echo "depoly and run is success"
